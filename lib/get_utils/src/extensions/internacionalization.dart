@@ -79,11 +79,11 @@ extension Trans on String {
   }
 
   String get tr {
-    print('language');
-    print(Get.locale!.languageCode);
-    print('contains');
-    print(Get.translations.containsKey(Get.locale!.languageCode));
-    print(Get.translations.keys);
+    // print('language');
+    // print(Get.locale!.languageCode);
+    // print('contains');
+    // print(Get.translations.containsKey(Get.locale!.languageCode));
+    // print(Get.translations.keys);
     // Returns the key if locale is null.
     if (Get.locale?.languageCode == null) return this;
 
